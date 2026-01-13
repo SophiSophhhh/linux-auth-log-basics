@@ -1,0 +1,14 @@
+# Commands Used - Linux Authentication Log Basics
+
+pwd                   # show current directory
+ls                    # list files and directory
+mkdir linux_practice  # create practice directory 
+cd linux_practice     # change into linux_practice directory
+
+cat auth.log                   # view authentication log contents
+grep "Failed" auth.log          # identify failed login attempts
+grep -c "Failed" auth.log       # count failed login attempts
+grep "203.0.113.5" auth.log     # track activity from a specific IP
+grep "Failed" auth.log*          #search failed logins across multiple auth.log files
+
+ss -tuln            # display listening network services and open ports
