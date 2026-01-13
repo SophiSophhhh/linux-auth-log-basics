@@ -2,6 +2,7 @@
 
 ## Project Overview
 This project demonstrates SOC fundamentals by analyzing Linux authentication logs (`auth.log`) to detect suspicious login activity. The focus is on manual log review, identifying failed login attempts, tracing IP addresses, and understanding risk exposure.
+Note: This project uses a simulated authentication log to practice log analysis techniques.
 
 ## Skills Practiced
 - Linux directory navigation and file handling
